@@ -1,8 +1,0 @@
-// 使用reset.css修正成基本模式（http://cssreset.com/scripts/eric-meyer-reset-css/）
-// CSS 需要再 js 前引入，因為要有CSS才有畫面，不然會有未排版得狀況先顯示的狀況
-// 使用http://caniuse.com/查css相容性
-// block自己會形成一行，多於會形成margin擋住其他元素並排
-// in-line會使元素並排
-// inline-block會使元素並排，但不同遊覽器會造成不同間隔，需要慎用
-
-// overflow 用來將沒有設定高的元素，依照內容撐開
