@@ -1,0 +1,38 @@
+body {
+	/* TBD */
+}
+
+.wrap {
+	width: 500px;
+	height: 100%;
+	margin: auto;
+	/* Use for block all elements inside block with style '.wrap'*/
+	position: relative;
+	background: #fff;
+}
+
+header {
+	background: #000;
+	height: 50px;
+}
+
+.logo {
+	width: 150px;
+	/* Height will extend the parent div */
+	height: 100%;
+	display: inline-block;
+	background: url("../images/logo.png") no-repeat center;
+	background-size: auto 100%;
+}
+
+header nav li {
+	float: left;
+}
+
+ul {
+	overflow: hidden;
+}
+
+nav {
+	float: right;
+}
