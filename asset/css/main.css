@@ -1,19 +1,21 @@
 body {
 	/* TBD */
+	background: #000;
 }
 
 .wrap {
-	width: 500px;
+	width: 800px;
 	height: 100%;
 	margin: auto;
 	/* Use for block all elements inside block with style '.wrap'*/
 	position: relative;
-	background: #fff;
 }
 
 header {
-	background: #000;
+	background: rgba(255, 255, 255, 0.2);
 	height: 50px;
+	position: fixed;
+	width: 100%;
 }
 
 .logo {
@@ -26,13 +28,37 @@ header {
 }
 
 header nav li {
+	line-height: 50px;
 	float: left;
+	cursor: pointer;
+	padding: 0 15px;
+	color: #888;
+}
+
+header nav li:hover {
+	color: #aea080;
 }
 
 ul {
+	height: 100%;
 	overflow: hidden;
 }
 
 nav {
+	height: 100%;
 	float: right;
+}
+
+.body-wrap {
+	height: 1000px;
+}
+
+.go-top {
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
 }
